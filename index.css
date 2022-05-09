@@ -1,0 +1,33 @@
+#grad {
+    height: cover;
+    background: linear-gradient(rgb(126,218,253),rgb(168,126,252));
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    h1 {
+        font-family: Courier New;
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Courier New;
+        color: white;
+    }
+    
+    img {
+    width: 100%;
+    align-self: center;
+    }
+    
+    @font-face {
+        font-family: Courier New;
+        src: url(./courier-new.ttf), format("truetype");
+    }
